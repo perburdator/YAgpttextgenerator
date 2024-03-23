@@ -1,2 +1,0 @@
-# YAgpttextgenerator
-## edit readme
