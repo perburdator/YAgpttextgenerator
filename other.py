@@ -2,7 +2,7 @@
 # Names, texts for functions, setspace and genre names you can change in this file.
 # Moreover, you can change all Russian texts into your language in bot.py
 
-bot_token = '6851651882:AAGQUDqShoSV_DvTuU03--AqBaWEXe92Yjg'
+bot_token = 'your telegram token for bot'
 
 text_start = ('Здравствуйте! Я ваш помощник в генерации неких сюжетов на базе YaGpt.\n'
               'Для справки о проекте есть команда /about\n'
@@ -16,23 +16,23 @@ text_choose_setting = '''
 '''
 text_for_setting = 'Хорошо, какие-нибудь еще добавления информации?\nЕсли нет нажмите /begin'
 
-ADMIN_ID = '1983380542'
+ADMIN_ID = 'your telegram id'
 MAX_USERS = 3
 MAX_MODEL_TOKENS = 1000
 MODEL_TEMPERATURE = 0.6
 MAX_SESSIONS = 3
 MAX_TOKENS_IN_SESSION = 1500
 
-db_dir = 'YAgpttextgenerator/'
-db_name = 'user_of_bot.db'
+db_dir = 'YAgpttextgenerator/' # rename if u need 
+db_name = 'user_of_bot.db' # rename if u need 
 
 HELP_COMMANDS = ['/debug', '/all_tokens', '/new_story']
 genres = ['Ужастик', 'Романтика', 'Детектив']
 heroes = ['Волтер Хартвелл', 'Айрен', 'Та самая Дина', 'Рик Декарт']
 settings = ['Закулисье', 'Лос-Анджелес 2049', 'Альбукерка. дом Вайтов']
 
-IAM_TOKEN = "t1.9euelZrKk4yejIqKmMuUmZOYiYrOmu3rnpWaj5WKkM6XyZCLjZiLl5jIlonl8_crUAVQ-e98CARP_N3z92t-AlD573wIBE_8zef1656Vmp6Yk5jKns6LloqalM6RipGP7_zF656Vmp6Yk5jKns6LloqalM6RipGPveuelZqSjszHlYmRlouLmY6ay5GZzLXehpzRnJCSj4qLmtGLmdKckJKPioua0pKai56bnoue0oye.LFMns2REj96TEJ62KkI4tfDOY8taBm2fIJLq_N7-FIREKnLKa9111hNV11WQsYLyXx5V4FKWMmMJTxmtk9kYBw"
-FOLDER_ID = 'b1gcf6r3e4g20hjl0cj5'
+IAM_TOKEN = "token from curl ...."
+FOLDER_ID = 'your folder_id for YAGPT'
 GPT_MODEL = 'yandexgpt-lite'
 
 CONTINUE_STORY = 'Продолжи сюжет в 1-3 предложения и оставь интригу. Не пиши никакой пояснительный текст от себя'
