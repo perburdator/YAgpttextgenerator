@@ -125,10 +125,4 @@ def delete_user(db_name):
     logging.info("Successfully deleted userdata")
 
 
-if __name__ == "__main__":
-    db_file = 'user_of_bot.db'
 
-    # add_user(db_file, '199912331', 'math')
-
-    # update_user_level(db_file, '199912331', 'beginner')
-    # update_user_level(db_file, '199912331', 'advanced')
